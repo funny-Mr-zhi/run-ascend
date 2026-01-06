@@ -18,3 +18,19 @@
 3. 验证安装成功
 
 
+测试RestNet运行时，如果要用到torchvision，仍参考上述网址的安装部分进行安装，安装后可能缺少部分库
+
+```
+pip install decorator scipy attrs sympy
+pip install psutil
+```
+
+
+PYG
+```
+# 1. 安装 PyG 主库, 华为给的参考就是这个命令
+pip install torch_geometric
+
+# 2. 安装 GNN 常用的辅助库 (数据处理用)
+pip install pandas scikit-learn networkx
+```
